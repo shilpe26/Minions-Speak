@@ -1,0 +1,61 @@
+:root{
+    --primary-color: #52006A;
+    --secondary-color: #FFA900;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background:url("img/minion-image.webp");
+    font-family: 'Pacifico', cursive;
+    background-size: cover;
+    color: var(--primary-color);
+}
+.heading{
+    text-align: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Style Script', cursive;
+    font-size: 3rem;
+}
+main{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+#translate-btn{
+    text-align: center;
+    padding: 9px 11px;
+    border: none;
+    border-radius: 14px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 6em;
+    margin: auto;
+    margin-top: 18px;
+}
+#output{
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Style Script', cursive;
+font-size: 1.5rem;
+}
+#translate-btn:hover{
+    box-shadow: 0px 0px 15px -1px #f7fd04;
+}
+.text{
+    width: 90%;
+    height: 15vh;
+    border: solid 2px var(--primary-color);
+    border-radius: 5px;
+    padding: 1rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    main{
+        width: 80%;
+    }   
+}
