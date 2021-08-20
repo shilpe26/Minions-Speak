@@ -42,7 +42,7 @@ main{
 font-family: 'Cedarville Cursive', cursive;
 font-family: 'Style Script', cursive;
 font-size: 1.5rem;
-color: black;
+color: white;
 }
 #translate-btn:hover{
     box-shadow: 0px 0px 15px -1px #f7fd04;
